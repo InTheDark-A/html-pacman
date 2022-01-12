@@ -2,8 +2,9 @@
 }
 
 .start__p-brief-info {
-    text-indent: 1.5em;
     font-size: 1.2em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
     margin-bottom: 20px;
 }
 
