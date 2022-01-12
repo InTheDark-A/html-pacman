@@ -67,9 +67,26 @@ select {
     font: inherit;
 }
 
-body{
-    width: 100vw;
-    min-height: 100vh;
-    font-size: 16px;
-    font-family: "Roboto Light", serif;
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+:root {
+    --shadow-color: #ea9101;
+    --background-color: rgb(0, 9, 23);
+    --menu-color: rgb(33, 33, 33);
+    --submenu-color: rgb(89, 87, 87);
+    --content-background-color: rgb(0, 0, 0);
+    --text-color-hover: #ea9101;
+    --text-color: #e6ddcd;
+    --link-color: #ef9f10;
+    --link-color-hover: #966204;
 }

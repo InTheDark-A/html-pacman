@@ -1,0 +1,48 @@
+.footer {
+    background: var(--background-color);
+    box-shadow: 0px -4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.footer__wrapper {
+    max-width: 1000px;
+    padding: 20px 10px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: var(--link-color);
+}
+
+.footer a:hover {
+    transition: color .1s linear;
+    color: var(--link-color-hover);
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link_vk {
+    fill: var(--link-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.footer__link_vk:before {
+    display: block;
+    content: "";
+    width: 1em;
+    height: 1em;
+    background-size: 100% 100% ;
+    background: url("./../assets/vk.svg") no-repeat center center;
+}
+
+
+
