@@ -186,7 +186,7 @@ ul.navbar__item-dropdown {
     left: 0;
 }
 
-.menu-burger span, .menu-burger:after, .menu-burger-navbar:before{
+.menu-burger span, .menu-burger:after, .menu-burger:before{
     height: 12.5%;
     width: 100%;
     position: absolute;
@@ -218,8 +218,8 @@ ul.navbar__item-dropdown {
         display: none;
     }
 
-    .menu-burger__header{
-        display: table-cell;
+    .menu-burger{
+        display: block;
     }
 
     .header__search input{
